@@ -1,0 +1,173 @@
+Log file initialized.
+C:\Games\Quake/garena/qconsole.log
+Fri Jul 29 03:00:48 2005
+
+Console initialized.
+Security module initialized
+Winsock TCP/IP Initialized
+WIPX_Init: Unable to open control socket
+Exe: 09:31:56 Sep 18 2002
+16.0 megabyte heap
+execing quake.rc
+execing default.cfg
+Unknown command "viewsize"
+Unknown command "volume"
+Unknown command "sensitivity"
+execing config.cfg
+Unknown command "joystick"
+Unknown command "m_side"
+Unknown command "m_forward"
+Unknown command "m_yaw"
+Unknown command "m_pitch"
+Unknown command "sensitivity"
+Unknown command "lookstrafe"
+Unknown command "lookspring"
+Unknown command "cl_backspeed"
+Unknown command "cl_forwardspeed"
+Unknown command "_cl_color"
+Unknown command "_cl_name"
+Unknown command "viewsize"
+Unknown command "_snd_mixahead"
+Unknown command "bgmvolume"
+Unknown command "volume"
+Unknown command "vid_window_y"
+Unknown command "vid_window_x"
+Unknown command "block_switch"
+Unknown command "vid_windowed_mode"
+Unknown command "vid_fullscreen_mode"
+Unknown command "_windowed_mouse"
+Unknown command "vid_stretch_by_2"
+Unknown command "vid_config_y"
+Unknown command "vid_config_x"
+Unknown command "_vid_default_mode_win"
+Unknown command "_vid_default_mode"
+Unknown command "_vid_wait_override"
+Unknown command "vid_nopageflip"
+
+SV_SpawnServer: Fri Jul 29 03:00:48 2005
+
+execing autoexec.cfg
+Unknown command "_cl_name"
+Unknown command "volume"
+Unknown command "pq_smoothcam"
+Unknown command "pq_timer"
+Unknown command "gl_doubleeyes"
+Unknown command "pq_moveup"
+Unknown command "variable"
+Unknown command "pq_drawfps"
+Unknown command "r_explosiontype"
+Unknown command "r_explosionlight"
+Unknown command "r_rocketlightcolor"
+Unknown command "r_rocketlight"
+Unknown command "r_rockettrail"
+Unknown command "r_grenadetrail"
+Unknown command "cl_r2g"
+Unknown command "cl_truelightning"
+Unknown command "cl_bobbing"
+Unknown command "r_powerupglow"
+Unknown command "r_fullbrightskins"
+Unknown command "cl_bonusflash"
+Unknown command "cl_muzzleflash"
+Unknown command "v_contentblend"
+Unknown command "v_damagecshift"
+Unknown command "v_quadcshift"
+Unknown command "v_pentcsift"
+Unknown command "v_ringcshift"
+Unknown command "v_suitcshift"
+Unknown command "gl_interpolate_animation"
+Unknown command "gl_interpolate_transform"
+Unknown command "gl_loadlitfiles"
+Unknown command "gl_waterfog"
+Unknown command "loadsky"
+Unknown command "gl_consolefont"
+Unknown command "cl_sbar"
+Unknown command "show_fps"
+Unknown command "gl_part_explosions"
+Unknown command "r_glowlg"
+bind <key> [command] : attach a command to a key
+Unknown command "+mlook"
+Unknown command "+speed"
+Unknown command "gl_finish"
+Unknown command "gl_polyblend"
+Unknown command "gl_keeptjunctions"
+Unknown command "gl_flashblend"
+Unknown command "gl_subdivide_size"
+Unknown command "m_filter"
+Unknown command "_snd_mixahead"
+Unknown command "r_mirroralpha"
+Unknown command "r_shadows"
+Unknown command "r_wateralpha"
+Unknown command "ambient_level"
+Unknown command "cl_anglespeedkey"
+Unknown command "cl_backspeed"
+Unknown command "cl_forwardspeed"
+Unknown command "cl_movespeedkey"
+Unknown command "cl_pitchspeed"
+Unknown command "cl_sidespeed"
+Unknown command "cl_upspeed"
+Unknown command "cl_yawspeed"
+Unknown command "scr_conspeed"
+couldn't exec ra.cfg
+
+SV_SpawnServer: Fri Jul 29 03:02:30 2005
+
+couldn't exec ra.cfg
+2020-03-25 23:49:11 Playing registered version.
+2020-03-25 23:49:11 
+2020-03-25 23:49:11 Engine: FTE SVN 5641M Mar  1 2020
+2020-03-25 23:49:11 Setting mode 1280*800 32bpp OpenGL
+2020-03-25 23:49:11 GL_VENDOR: Intel Inc.
+2020-03-25 23:49:11 GL_RENDERER: Intel(R) Iris(TM) Graphics 6100
+2020-03-25 23:49:11 GL_VERSION: 2.1 INTEL-14.5.22
+2020-03-25 23:49:11 Unable to init libjpeg
+2020-03-25 23:49:11 Unable to load libpng16.so.16
+2020-03-25 23:49:12 Initing default SDL audio device.
+2020-03-25 23:49:12 OpenGL renderer initialized
+2020-03-25 23:49:12 ------- Quake Initialized -------
+2020-03-25 23:49:12 OP_LOAD references invalid entity -238128 in InternalInit
+2020-03-25 23:49:12  internal.qc : InternalInit+16
+2020-03-25 23:49:12     world.qc : worldspawn+1
+2020-03-25 23:49:12 QC Exception: OP_LOAD references invalid entity -238128 in InternalInit
+2020-03-25 23:49:12 
+2020-03-25 23:49:12 OP_LOAD references invalid entity -238128 in InternalInit
+2020-03-25 23:49:12  internal.qc : InternalInit+50
+2020-03-25 23:49:12     world.qc : worldspawn+1
+2020-03-25 23:49:12 QC Exception: OP_LOAD references invalid entity -238128 in InternalInit
+2020-03-25 23:49:12 
+2020-03-25 23:49:12 OP_LOAD references invalid entity -238128 in InternalInit
+2020-03-25 23:49:12  internal.qc : InternalInit+16
+2020-03-25 23:49:12     world.qc : worldspawn+1
+2020-03-25 23:49:12 QC Exception: OP_LOAD references invalid entity -238128 in InternalInit
+2020-03-25 23:49:12 
+2020-03-25 23:49:12 OP_LOAD references invalid entity -238128 in InternalInit
+2020-03-25 23:49:12  internal.qc : InternalInit+50
+2020-03-25 23:49:12     world.qc : worldspawn+1
+2020-03-25 23:49:12 QC Exception: OP_LOAD references invalid entity -238128 in InternalInit
+2020-03-25 23:49:12 
+2020-03-25 23:49:12 Server spawned.
+2020-03-25 23:49:12 client Player connected
+2020-03-25 23:49:12 couldn't exec ra.cfg
+2020-03-25 23:49:12 couldn't exec ra.cfg
+2020-03-25 23:49:12 
+2020-03-25 23:49:12 
+2020-03-25 23:49:12 ???????????????????
+2020-03-25 23:49:12 
+2020-03-25 23:49:12 ArenaX - http://www.planetquake.com/servers/arena
+2020-03-25 23:49:14       net.qc : net_hide_ip+11
+2020-03-25 23:49:14     p: 0
+2020-03-25 23:49:14     dotcount: 0
+2020-03-25 23:49:14     px: 0
+2020-03-25 23:49:14       net.qc : net_connect+17
+2020-03-25 23:49:14    server.qc : ra_connect+2
+2020-03-25 23:49:14    client.qc : ClientConnect+18
+2020-03-25 23:49:14 
+2020-03-25 23:49:14 SV_Error: runaway loop error
+2020-03-25 23:49:14 
+2020-03-25 23:49:14 Host_EndGame: SV_Error: runaway loop error
+2020-03-25 23:49:14 
+2020-03-25 23:49:14 
+2020-03-25 23:49:14 
+2020-03-25 23:49:14 Server ended
+2020-03-25 23:49:14 Client "Player" removed
+2020-03-25 23:49:28 ]quit
+2020-03-25 23:50:10 Playing registered version.

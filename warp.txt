@@ -1,0 +1,51 @@
+WARP List
+23ar-a		platarena23-a
+2pyramid	two pyramids
+2towers         twin towers arena
+arenarg2	rocket jump this
+arenarg4	spongebath
+arenarg5	the wicked empty base
+arenarg6	the pit
+arenax		arenaX
+arenazap	zaphods arena
+
+arendm1a	place to die
+arenrg3a	edge of insanity
+arma4		armageddon 4
+barena1		Bowl arena
+basarena	base arena
+bbarena2	blood bath
+bunmoo3		first bunny on  the moon
+bunski		ski bunny
+chamber1 	the chamber of pain
+
+crandome	
+dm2arena	claustarena
+dom2_1ra	Doom2map01RA
+egyptra		egyptra
+football	rocket football arena
+gear8		censored
+gnurena		seek-and-hide
+hill20		
+iarena2		2 castles
+
+id3		dm6 arena
+lowgrav		reduced gravity
+marena2		arena2 by mungo
+marena3		arena3 by mungo
+marena4		arena4 by mungo
+mayan1		mayan showdown
+nilsrar3	nils arena 3
+pen2		
+pitarena	the pit arena
+
+ptucket		pawtucket palladium
+ra_funkf	funkadooda's revenge
+rarena3		rage arena
+rgarden		rock garden
+soyarena	flesh arena
+terrain2	terrain
+uarena1		unknown arena
+unholy		unholy chapel
+xarena3		X arena
+yard1		the backyard

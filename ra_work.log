@@ -1,0 +1,110 @@
+-----
+RocketArena
+-----
+
+-------------------------------------------------------------------------------
+Oct. 05 2002, Sat.
+------------------
+Day one. 
+Installed final arena v1.2
+recompiled with frikqcc /warn4 /O2
+-------------------------------------------------------------------------------
+initial warnings report:
+-------------------------------------------------------------------------------
+warning: defs.qc:635:Unreferenced local variable level 
+warning: subs.qc:25:SetMovedir: not all control paths return a value
+warning: combat.qc:253:Unreferenced local variable targteam 
+warning: combat.qc:253:Unreferenced local variable attackerteam 
+warning: combat.qc:253:Unreferenced local variable s 
+warning: items.qc:79:Unreferenced local variable best 
+warning: items.qc:79:Unreferenced local variable stemp 
+warning: items.qc:143:Unreferenced local variable best 
+warning: items.qc:143:Unreferenced local variable stemp 
+warning: items.qc:187:droptofloor: Too few parameters
+warning: items.qc:248:healamount defined as local in T_Heal
+warning: items.qc:300:health_touch does not return a value
+warning: items.qc:355:Unreferenced local variable amount 
+warning: items.qc:398:armor_touch does not return a value
+warning: items.qc:560:Unreferenced local variable old 
+warning: items.qc:583:weapon_touch does not return a value
+warning: items.qc:827:ammo_touch does not return a value
+warning: items.qc:1124:key_touch does not return a value
+warning: items.qc:1144:Unreferenced local variable best 
+warning: items.qc:1144:Unreferenced local variable stemp 
+warning: items.qc:1261:sigil_touch does not return a value
+warning: items.qc:1277:Unreferenced local variable best 
+warning: items.qc:1277:Unreferenced local variable stemp 
+warning: items.qc:1338:powerup_touch does not return a value
+warning: items.qc:1396:Unreferenced local variable best 
+warning: items.qc:1396:Unreferenced local variable stemp 
+warning: weapons.qc:119:Unreferenced local variable mpuff 
+warning: weapons.qc:412:Unreferenced local variable mpuff 
+warning: weapons.qc:598:Unreferenced local variable mpuff 
+warning: weapons.qc:720:Unreferenced local variable rand 
+warning: weapons.qc:754:Unreferenced local variable rand 
+warning: world.qc:395:Unreferenced local variable e 
+warning: clienta.qc:153:Unreferenced local variable la 
+warning: clienta.qc:153:Unreferenced local variable lh 
+warning: clienta.qc:153:Unreferenced local variable wa 
+warning: clienta.qc:153:Unreferenced local variable wh 
+warning: clienta.qc:394:FindIntermission: not all control paths return a value
+warning: clienta.qc:418:Unreferenced local variable newmap 
+warning: clienta.qc:514:Unreferenced local variable pos 
+warning: clienta.qc:575:Unreferenced local variable v_x 
+warning: clienta.qc:656:Unreferenced local variable rs 
+warning: clienta.qc:656:Unreferenced local variable rnum 
+warning: clienta.qc:656:Unreferenced local variable newspot 
+warning: clienta.qc:714:ValidateUser: not all control paths return a value
+warning: clienta.qc:714:Unreferenced local variable e 
+warning: clienta.qc:893:Unreferenced local variable trail 
+warning: clienta.qc:893:Unreferenced local variable s 
+warning: rotate.qc:114:Unreferenced local variable newmap 
+warning: clientb.qc:52:Unreferenced local variable old_self 
+warning: clientb.qc:101:Unreferenced local variable start_x 
+warning: clientb.qc:369:Unreferenced local variable aspeed 
+warning: clientb.qc:369:Unreferenced local variable mspeed 
+warning: clientb.qc:588:Unreferenced local variable r 
+warning: clientb.qc:588:Unreferenced local variable aspeed 
+warning: clientb.qc:588:Unreferenced local variable mspeed 
+warning: clientb.qc:1094:Unreferenced local variable tempent 
+warning: clientb.qc:1094:Unreferenced local variable targteam 
+warning: clientb.qc:1094:Unreferenced local variable attackerteam 
+warning: clientb.qc:1094:Unreferenced local variable deathstring2 
+warning: clientb.qc:1094:Unreferenced local variable deathstring 
+warning: buttons.qc:140:Unreferenced local variable ftemp 
+warning: buttons.qc:140:Unreferenced local variable gtemp 
+warning: triggers.qc:2:stemp defined as local in BackpackTouch
+warning: triggers.qc:2:stemp defined as local in powerup_touch
+warning: triggers.qc:2:stemp defined as local in sigil_touch
+warning: triggers.qc:2:stemp defined as local in key_touch
+warning: triggers.qc:2:stemp defined as local in ammo_touch
+warning: triggers.qc:2:stemp defined as local in weapon_touch
+warning: triggers.qc:2:stemp defined as local in r_touch
+warning: triggers.qc:2:stemp defined as local in q_touch
+warning: triggers.qc:2:stemp defined as local in SUB_UseTargets
+warning: triggers.qc:2:stemp defined as local in SUB_CalcAngleMoveEnt
+warning: triggers.qc:2:stemp defined as local in SUB_CalcMoveEnt
+warning: triggers.qc:2:otemp defined as local in SUB_UseTargets
+warning: triggers.qc:2:s defined as local in ClientObituary
+warning: triggers.qc:2:s defined as local in ClientDisconnect
+warning: triggers.qc:2:s defined as local in PutClientInServer
+warning: triggers.qc:2:s defined as local in BackpackTouch
+warning: triggers.qc:2:s defined as local in health_touch
+warning: triggers.qc:2:s defined as local in r_touch
+warning: triggers.qc:2:s defined as local in q_touch
+warning: triggers.qc:2:s defined as local in T_Damage
+warning: triggers.qc:2:s defined as local in sprint
+warning: triggers.qc:2:s defined as local in bprint
+warning: triggers.qc:2:old defined as local in W_FireSpikes
+warning: triggers.qc:2:old defined as local in W_FireSuperSpikes
+warning: triggers.qc:2:old defined as local in BackpackTouch
+warning: triggers.qc:2:old defined as local in weapon_touch
+warning: triggers.qc:2:old defined as local in Deathmatch_Weapon
+warning: triggers.qc:252:Unreferenced local variable junk 
+warning: plats.qc:215:Unreferenced local variable t 
+warning: misc.qc:179:No operation performed
+warning: misc.qc:249:droptofloor: Too few parameters
+warning: misc.qc:281:droptofloor: Too few parameters
+warning: misc.qc:480:Unreferenced local variable vtmp1_x 
+warning: misc.qc:536:makestatic: Too few parameters
+-------------------------------------------------------------------------------

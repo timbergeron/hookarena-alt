@@ -1,0 +1,97 @@
+-=CLIENT.QC=-
+
+void(vector v, float f1) drip =
+{
+        v=v+'-4 0 4';
+        particle(v+v_up*random()*-70, '0 0 -1', f1, 4);
+        particle(v+v_forward*random()*-10, '0 0 -1', f1, 4);
+        particle(v+v_right*random()*10, '0 0 -1', f1, 4);
+        particle(v+v_right*random()*-10, '0 0 -1', f1, 4);
+};
+//------------------------------------------------------------------      
+playerjump =
+
+...
+
+  sound(self, CHAN_BODY, "misc/water2.wav", 1, ATTN_NORM);//<-- find this existing code
+           }
+           drip(self.origin,2);//<--added here
+         }
+      return;
+//------------------------------------------------------------------      
+void () WaterMove =
+{
+
+   if (!(self.waterlevel)) 
+      {
+       sound(self, CHAN_BODY, "misc/outwater.wav", 1, ATTN_NORM);
+       drip(self.origin,2);
+       self.flags = (self.flags) - FL_INWATER;
+       return;
+      }
+
+   if (!((self.flags) & FL_INWATER)) 
+   {
+
+      if ((self.watertype) == CONTENT_LAVA) 
+         {
+          sound(self, CHAN_BODY, "player/inlava.wav", 1, ATTN_NORM);
+          drip(self.origin,73);
+         }
+
+      if ((self.watertype) == CONTENT_WATER) 
+         {
+          sound(self, CHAN_BODY, "player/inh2o.wav", 1, ATTN_NORM);
+          if (self.waterlevel < 3) drip(self.origin,38);
+         }
+
+      if ((self.watertype) == CONTENT_SLIME) 
+         {
+          sound(self, CHAN_BODY, "player/slimbrn2.wav", 1, ATTN_NORM);
+          drip(self.origin,57);   
+         }
+  
+  ....
+  //more code inbetween
+  // this gose near the end..
+  
+if (!((self.flags) & FL_WATERJUMP)) 
+   {
+      self.velocity = (1 - ((0.8 * (self.waterlevel)) * frametime)) * (self.velocity);//<--existing code
+      if (self.velocity)
+         {
+          if ((self.watertype)  == CONTENT_LAVA)     {drip(self.origin,73);}
+          if (((self.watertype) == CONTENT_WATER)    {drip(self.origin,38);}// && (self.waterlevel < 3)) for non swim bubbles
+          if ((self.watertype)  == CONTENT_SLIME)    {drip(self.origin,57);}
+         }      
+      }
+
+//------------------------------------------------------------------        
+void () CheckWaterJump =
+{
+   local vector start;
+   local vector end;
+
+   makevectors(self.angles);
+   start = self.origin;
+   start_z = start_z + WEAPON_BIG;
+   v_forward_z = 0;
+   normalize(v_forward);
+   end = start + (v_forward * 24);
+   traceline(start, end, TRUE, self);
+
+   if (trace_fraction < 1) 
+   {
+      start_z = start_z + 24;
+      end_z = end_z + 24;
+      traceline(start, end, TRUE, self);
+
+      if (trace_fraction == 1) {
+         self.flags = (self.flags) | FL_WATERJUMP;
+         self.velocity_z = 225;
+         self.flags = (self.flags) - ((self.flags) & FL_JUMPRELEASED);
+         self.teleport_time = time + 2;
+         }
+      drip(self.origin,300);//<-----------------------
+   }
+};

@@ -1,0 +1,20 @@
+Extended Maps 
+
+ 1) bundes          - Bunny In Desert
+ 2) cdff             - Crazyness Dopefish
+ 3) cockra           - Cock Tower`
+ 4) ctf1raff2        - McKinley Arena
+ 5) cy2              - The Courtyard
+ 6) dark             - The Dark Arena
+ 7) death1           - Sudden Death
+ 8) doomfsky         - DOOM2 Arena
+ 9) efra             - Red Pool
+10) gear9            - Galapagos
+11) jexra1           - Loophole
+12) lostcave         - The Lost Cave
+13) macarena         - The MacArena
+14) rcra2            - Brodman's Arena
+15) tigra3           - Tigger-On's Arena
+16) tree             - The Tree
+17) warhous          - The Warehouse Arena
+18) zaprmx           - Zaphods Arena Rmx
